@@ -1,11 +1,10 @@
 def my_collect(array)
-  i = 0 
-  array.split(" "")
+  i = 0
+  collect = []
   while i < array.length
-    
-    yield(array[i])
-    i = i + 1 
+    i+=1
   end
+  collect
 end
     
 
